@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portafolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/b32ff5ed48.js" crossorigin="anonymous"></script>
+    <title>Instalación atada, compilada y minimizada</title>
+    </head>
+<body> 
+    <nav class="navbar navbar-expand-lg bg-black">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="../aseest/img/descarga.png" alt="logo Arg" class="w-50">
+              </a>
+              <ul class="list-group list-group-horizontal">
+                <li class="list-group-item bg-black"><a class="fa-brands fa-linkedin text-white" href="https://www.linkedin.com/in/celeste-perafan-a778ab226/" target="_blank"></a></li>
+                <li class="list-group-item bg-black"><a class="fa-brands fa-facebook text-white" href="https://www.facebook.com/celeste.perafan.71" target="_blank"></a></li>
+                <li class="list-group-item bg-black"><a class="fa-brands fa-github text-white" href="https://github.com/celedp" target="_blank"></a></li>
+                <li class="list-group-item bg-black"> 
+                  <!-- boton que habre el login -->
+                 <a href="login.html"><i data-bs-toggle="modal" data-bs-target="#loginModal" class="fa-solid fa-user-lock  text-white"></i></a>
+                </li>
+             </ul>
+          </div>
+      </nav>
+      <!--seccion del banner-->
+      <section class="banner">
+        <h1 class="text-center intro text-black"></h1>
+        <h2 class="text-center">Desarrolladora full stack js.</h2>
+      </section>
+      <!--foto-->
+      <section class="presentacion">
+        <div class="container-fluid text-center">
+          <div class="row">
+            <div class="col-2">
+              <img src="../aseest/img/fotodeperfil.jfif" alt="fotodeperfil" class="rounded-circle img-fluid perfil">
+            </div>
+            <!--acerca de mi-->
+              <h4>Acerca de Mi</h4>
+              <h6>Soy estudiante, enfocada en recibirme de desarrolladora,<br>
+                Me considero una persona
+                resolutiva,<br> con facilidad de
+                adaptacion y capacidad
+                para trabajar en equipo</h6><br><br><br><br>
+
+      <section id="editSobre" class="bg-dark p-4">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col">
+              
+ <!-- Button trigger modal editar imagen-->
+ <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#editarImagen">
+  Editar Imagen
+</button>
+            </div>
+            <div class="col">
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#editarNombre">
+                Editar Nombre
+              </button>
+            </div>
+            <div class="col">
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#editarInformacion">
+                Editar Informacion
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>  
+
+    
+
+
+
+
+      <!--experiencia-->
+      <section class="experiencia">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-12">
+              <h4 class="text-center">Experiencia Laboral</h4>
+              <h5>Prevencion de delito - enero 2018/ actualmente</h5>
+              <div class="col-1">
+                <img src="../aseest/img/Policia_de_la_Ciudad-241.png" alt="logo_policia" class="imagen_justicia" width="200" height="80">
+              </div>
+                <h6>Detectar y relevar las distintas situaciones de riesgo o anomalías en el
+                  espacio para dar
+                  intervención a las fuerzas de seguridad y/o emergencia de la ciudad
+                  según la situación
+                  lo requiera.</h6>
+                  <h5>Terapia Organizativa Biomolecular – TOB<br> diciembre 2016 – noviembre 2017</h5>
+                  <div class="col-1">
+                    <img src="../aseest/img/azul-tob2.png" alt="TOB" class="imagen_Tob" width="100" height="80">
+                  </div>
+                  <h6>Otorgamiento de turnos.
+                    Carga de Historia clínica.
+                    Manejo y cierre de caja
+                    tarea administrativa en general</h6>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- finaliza experiencia-->
+      <!--educacion-->
+      <section class="educacion mt-5">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-12">
+              <h4>Educacion</h4>
+        <h5>UNIVERSIDAD NACIONAL ARTURO
+          JAURETCHE</h5>
+          <div class="col-1">
+            <img src="../Repositorio Front End/logo-unaj-2016-01.jpg" alt="unaj" class="imagen_justicia" width="200" height="80">
+          </div>
+          <h6>Administracion de Empresas
+            marzo - 2021</h6>
+            <h6>CURSO DE COMMUNITY MANAGER</h6>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!---finaliza educacion-->
+      </section>
+      <!--finaliza, presentacion-->
+<!-- el login -->
+        <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+        <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">inicioSesion</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        <!--inicia formulario-->
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">Nunca compartiremos tu correo electrónico con nadie.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+        </form>
+        <!--finaliza formulario-->
+      </div>
+        <div class="modal-footer">
+        <button type="submit" class="btn btn-secondary" data-bs-dismiss="modal">Ingresar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Modal editar perfil -->
+<div class="modal fade" id="editarImagen" tabindex="-1" aria-labelledby="editarImagen" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="editarImagen">Editar Imagen</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      
+
+      <div class="mb-3">
+        <label for="editarImagen" class="form-label">Editar Imagen</label>
+        <input type="url" placeholder="Inserte url de imagen" name="editarImagen" id="editarImagen" required>
+      </div>
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <!-- Modal editar nombre -->
+<div class="modal fade" id="editarNombre" tabindex="-1" aria-labelledby="editarNombre" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="editarNombre">Editar Nombre</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      
+
+      <div class="mb-3">
+        <label for="editarNombre" class="form-label">Nombre</label>
+        <input type="url" placeholder="Inserte Nuevo Nombre" name="editarNombre" id="editarNombre">
+      </div>
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      <!-- Modal editar informacion -->
+<div class="modal fade" id="editarInformacion" tabindex="-1" aria-labelledby="editarInformacion" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="editarInformacion">Editar Informacion</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      
+
+      <div class="mb-3">
+        <label for="editarNombre" class="form-label">Informacion</label>
+        <input type="url" placeholder="Inserte Nueva informacion" name="editarInformacion" id="editarInformacion">
+      </div>
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <!-- Bootstrap JS -->
+
+    <script src="dist/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>     
+</body>
+<footer class="bg-black text-white text-center fs-6">
+  <div class="pt-5">
+    <p>&copy copyright Perafan Celeste-2022</p>
+  </div>
+</footer> 
+</html>
